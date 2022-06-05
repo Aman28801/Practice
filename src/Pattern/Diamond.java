@@ -2,7 +2,7 @@ package Pattern;
 
 public class Diamond {
     public static void main(String[] args) {
-        int n=4;
+        int n=3;
         for (int i = 1; i <=n ; i++) {
             //spaces
             for(int j = 1; j <=n-i ; j++) {

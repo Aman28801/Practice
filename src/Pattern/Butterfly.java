@@ -2,7 +2,7 @@ package Pattern;
 
 public class Butterfly {
     public static void main(String[] args) {
-        int n=10;
+        int n=4;
         //first half or uppr half
         for (int i = 1; i <=n; i++) {
             for (int j = 1; j <=i; j++) {
@@ -20,20 +20,20 @@ public class Butterfly {
             System.out.println();
             //lower half
         }
-        for (int i = n; i >=1; i--) {
-            for (int j = 1; j<=i; j++) {
-                System.out.print("*");
-            }
-            //spaces
-            int spaces =2 * (n-i);
-            for (int j = 1; j <=spaces ; j++) {
-                System.out.print(" ");
-            }
-            //2nd part
-            for (int j = 1; j <=i ; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+//        for (int i = n; i >=1; i--) {
+//            for (int j = 1; j<=i; j++) {
+//                System.out.print("*");
+//            }
+//            //spaces
+//            int spaces =2 * (n-i);
+//            for (int j = 1; j <=spaces ; j++) {
+//                System.out.print(" ");
+//            }
+//            //2nd part
+//            for (int j = 1; j <=i ; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
     }
 }

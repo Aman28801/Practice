@@ -11,8 +11,7 @@ public class Fibonacci2 {
         }
         int fnm1=fib(n-1);
         int fnm2=fib(n-2);
-        int fn=fnm1+fnm2;
-        return fn;
+        return fnm1+fnm2;
     }
 
     public static void main(String[] args) {
