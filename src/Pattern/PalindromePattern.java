@@ -1,6 +1,9 @@
 package Pattern;
 
 public class PalindromePattern {
+//    public void print(){
+//        System.out.println("Pattern");
+//    }
     public static void main(String[] args) {
         int n=5;
         for(int i=1;i<=n;i++){
