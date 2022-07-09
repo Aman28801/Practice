@@ -9,5 +9,11 @@ public class usingFramework {
         list.addFirst("a");
         list.addFirst("is");
         System.out.println(list);
+
+        list.addLast("this");
+
+        System.out.println(list);
+
+        System.out.println(list.size());
     }
 }
