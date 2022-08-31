@@ -3,10 +3,10 @@ package LL;
 class Basic {
     Node head;
     static class Node{
-        String data;
-        Node next;
+        private String data;
+        private Node next;
 
-        Node(String data){
+        public Node(String data){
         this.data=data;
         this.next=null;
         }
