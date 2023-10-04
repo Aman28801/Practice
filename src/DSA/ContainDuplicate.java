@@ -1,10 +1,7 @@
 package DSA;
-
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
 
-public class ContainDuplicate { // true id it contains dublicate else false
+public class ContainDuplicate { // true if it contains dublicate else false
 
     public static boolean cheak(int[] arr) {
         HashSet<Integer> hm = new HashSet<>();
