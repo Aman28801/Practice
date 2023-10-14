@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class LinkedLists {
+public class   LinkedLists {
     public static void main(String[] args) {
         LinkedList<Integer> l1 = new LinkedList<>();
         l1.add(10);
@@ -23,6 +23,4 @@ public class LinkedLists {
 
 
     }
-
-
 }
