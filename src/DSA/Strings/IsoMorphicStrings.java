@@ -30,6 +30,6 @@ public class IsoMorphicStrings {
     public static void main(String[] args) {
         String s1 = "abdb";
         String s2 = "wxzx";
-        System.out.println(check(s1,s2));;
+        System.out.println(check(s1,s2));
     }
 }
