@@ -1,27 +1,26 @@
-import java.util.HashMap;
-import java.util.Scanner;
 
 public class Nados {
+    void add(int x,int y){
+        System.out.println(x+y);
+    }
+    void add(int x,int y, int z){
+        System.out.println(x+y+z);
+    }
+
+    public static class NadosChild extends Nados{
+        @Override
+        void add(int x,int y){
+            System.out.println(x+y);
+        }
+    }
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-        String s =sc.next();
-        HashMap<Character,Integer> hm =new HashMap<>();
-        for(int i=0;i<s.length();i++){
-            char c=s.charAt(i);
-            if(hm.containsKey(c)){
-                int of =hm.get(c);
-                int nf =of+1;
-                hm.put(c,nf);
-            }else{
-                hm.put(c,1);
-            }
-        }
-        char mfc =s.charAt(0);
-        for(Character key : hm.keySet()){
-            if(hm.get(key)>hm.get(mfc)){
-                mfc=key;
-            }
-        }
-        System.out.println(mfc);
+        Nados nados = new Nados();
+        nados.add(20,30);
+        nados.add(20,30,40);
+        NadosChild child = new NadosChild();
+        child.add(10,80);
+
     }
 }
+
+

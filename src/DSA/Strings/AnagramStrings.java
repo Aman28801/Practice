@@ -3,12 +3,12 @@ package DSA.Strings;
 import java.util.Arrays;
 
 public class AnagramStrings {
-    public static String SortString(String str){
+    static String SortString(String str){
         char[] c = str.toCharArray();
         Arrays.sort(c);
         return new String(c);
     }
-    public static boolean check(String s1,String s2){
+    static boolean check(String s1,String s2){
         if(s1.length() != s2.length()){
             return false;
         }
